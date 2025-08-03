@@ -4,8 +4,8 @@ var lastDay = 11;
 
 for (i = 1; i <= lastDay; i++) {
   if (i % 3 === 0) {
-    console.log("Medicine");
+    console.log(i, "-", "Medicine");
   } else {
-    console.log("Rest");
+    console.log(i, "-", "Rest");
   }
 }
